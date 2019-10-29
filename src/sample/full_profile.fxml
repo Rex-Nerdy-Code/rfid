@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<HBox prefHeight="658.0" prefWidth="937.0" style="-fx-background-color:  #2b4c2b;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <HBox style=" fx-background-color: #2b4c2b;" HBox.hgrow="ALWAYS">
+      <children>
+        <GridPane HBox.hgrow="ALWAYS">
+          <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+              <children>
+                <Label text="FIRST NAME:" VBox.vgrow="ALWAYS">
+                  <font>
+                    <Font name="Arial Black" size="20.0" fx:id="x1" />
+                  </font>
+                  <textFill>
+                    <Color blue="0.149" green="0.204" red="0.761" fx:id="x6" />
+                  </textFill>
+                  <VBox.margin>
+                    <Insets left="10.0" top="10.0" fx:id="x7" />
+                  </VBox.margin>
+                </Label>
+                <Label fx:id="Fiiname_Obj" text="Fname" textAlignment="CENTER" VBox.vgrow="ALWAYS">
+                  <font>
+                    <Font name="Algerian" size="30.0" fx:id="x2" />
+                  </font>
+                  <textFill>
+                    <Color blue="0.784" green="0.969" red="0.678" fx:id="x5" />
+                  </textFill>
+                  <VBox.margin>
+                    <Insets left="20.0" top="10.0" />
+                  </VBox.margin>
+                </Label>
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+              <children>
+                <Label font="$x1" text="SURNAME:" textFill="$x6" VBox.vgrow="ALWAYS">
+                  <VBox.margin>
+                    <Insets top="10.0" fx:id="x3" />
+                  </VBox.margin>
+                </Label>
+                <Label fx:id="Siiname_Obj" font="$x2" text="Sname" textAlignment="CENTER" textFill="$x5" VBox.margin="$x7" VBox.vgrow="ALWAYS" />
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="0">
+              <children>
+                <Label font="$x1" text="OTHER NAME:" textFill="$x6" VBox.margin="$x3" VBox.vgrow="ALWAYS" />
+                <Label fx:id="otherName_obj" font="$x2" text="O" textFill="$x5" VBox.margin="$x7" VBox.vgrow="ALWAYS" />
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+              <children>
+                <Label font="$x1" text="FACULTY:" textFill="$x6" VBox.vgrow="ALWAYS">
+                  <VBox.margin>
+                    <Insets left="10.0" />
+                  </VBox.margin>
+                </Label>
+                <Label fx:id="faculty_Obj" font="$x2" text="Fname" textAlignment="CENTER" textFill="$x5" VBox.margin="$x7" />
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+              <children>
+                <Label font="$x1" text="MATRIC NO:" textFill="$x6" />
+                <Label fx:id="mat_Onj" font="$x2" text="Mat" textAlignment="CENTER" textFill="$x5" VBox.margin="$x3" VBox.vgrow="ALWAYS" />
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+              <children>
+                <Label font="$x1" text="DEPARTMENT:" textFill="$x6" />
+                <Label fx:id="dept_obj" font="$x2" text="dept" textAlignment="CENTER" textFill="$x5" VBox.margin="$x3" VBox.vgrow="ALWAYS" />
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+              <children>
+                <Label font="$x1" text="LEVEL:" textFill="$x6" VBox.vgrow="ALWAYS">
+                  <VBox.margin>
+                    <Insets left="10.0" />
+                  </VBox.margin>
+                </Label>
+                <Label id="faculty_Obj" fx:id="level_obj" font="$x2" text="LEV" textAlignment="CENTER" textFill="$x5">
+                  <VBox.margin>
+                    <Insets left="10.0" top="10.0" fx:id="x7" />
+                  </VBox.margin>
+                </Label>
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+              <children>
+                <Label font="$x1" text="SESSION:" VBox.vgrow="ALWAYS">
+                  <textFill>
+                    <Color blue="0.149" green="0.204" red="0.761" fx:id="x4" />
+                  </textFill>
+                  <VBox.margin>
+                    <Insets left="10.0" />
+                  </VBox.margin>
+                </Label>
+                <Label id="faculty_Obj" fx:id="session_obj" font="$x2" text="SES" textAlignment="CENTER">
+                  <textFill>
+                    <Color blue="0.784" green="0.969" red="0.678" fx:id="x8" />
+                  </textFill>
+                  <VBox.margin>
+                    <Insets left="10.0" top="10.0" fx:id="x7" />
+                  </VBox.margin>
+                </Label>
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+              <children>
+                <Label font="$x1" text="PHONE NO:" textFill="$x4" VBox.vgrow="ALWAYS">
+                  <VBox.margin>
+                    <Insets left="10.0" />
+                  </VBox.margin>
+                </Label>
+                <Label id="faculty_Obj" fx:id="phone_obj" font="$x2" text="PHONE" textAlignment="CENTER" textFill="$x8">
+                  <VBox.margin>
+                    <Insets left="10.0" top="10.0" fx:id="x7" />
+                  </VBox.margin>
+                </Label>
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="3">
+              <children>
+                <Label font="$x1" text="E-MAIL:" textFill="$x4" VBox.vgrow="ALWAYS">
+                  <VBox.margin>
+                    <Insets left="10.0" />
+                  </VBox.margin>
+                </Label>
+                <Label id="faculty_Obj" fx:id="email_obj" font="$x2" text="E-mail" textAlignment="CENTER" textFill="$x8">
+                  <VBox.margin>
+                    <Insets left="10.0" top="10.0" fx:id="x7" />
+                  </VBox.margin>
+                </Label>
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+              <children>
+                <Label font="$x1" text="ADRESS:" textFill="$x4" VBox.vgrow="ALWAYS">
+                  <VBox.margin>
+                    <Insets left="10.0" />
+                  </VBox.margin>
+                </Label>
+                <Label id="faculty_Obj" fx:id="address_obj" font="$x2" text="Address" textAlignment="CENTER" textFill="$x8">
+                  <VBox.margin>
+                    <Insets left="10.0" top="10.0" fx:id="x7" />
+                  </VBox.margin>
+                </Label>
+              </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+              <children>
+                <Label font="$x1" text=":" textFill="$x4" VBox.vgrow="ALWAYS">
+                  <VBox.margin>
+                    <Insets left="10.0" />
+                  </VBox.margin>
+                </Label>
+                <Label id="faculty_Obj" font="$x2" text="A" textAlignment="CENTER" textFill="$x8">
+                  <VBox.margin>
+                    <Insets left="10.0" top="10.0" fx:id="x7" />
+                  </VBox.margin>
+                </Label>
+              </children>
+            </VBox>
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+          <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+          </HBox.margin>
+        </GridPane>
+        <VBox HBox.hgrow="NEVER">
+          <children>
+            <Circle fx:id="Circle_Obj" fill="DODGERBLUE" radius="161.5" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="10.0" strokeType="INSIDE" VBox.vgrow="ALWAYS">
+              <VBox.margin>
+                <Insets left="20.0" top="30.0" />
+              </VBox.margin>
+            </Circle>
+          </children>
+          <HBox.margin>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="10.0" />
+          </HBox.margin>
+        </VBox>
+      </children>
+    </HBox>
+  </children>
+</HBox>

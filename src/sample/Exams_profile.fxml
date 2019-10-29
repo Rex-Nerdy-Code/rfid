@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <HBox fx:id="center_pane2" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color:  #2b4c2b;" HBox.hgrow="ALWAYS">
+    <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+        <children>
+          <GridPane gridLinesVisible="true" VBox.vgrow="NEVER">
+            <children>
+              <Label text="EXAMS TITLE" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                <font>
+                  <Font name="Arial Black" size="20.0" fx:id="x2_x0" />
+                </font>
+              </Label>
+              <Label font="$x2_x0" text="STATUS" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label font="$x2_x0" text="DATE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label font="$x2_x0" text="TIME" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label fx:id="E_title_obj1" alignment="CENTER" text="CSC 121" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                <font>
+                  <Font name="Arial Unicode MS" size="20.0" fx:id="x8" />
+                </font>
+              </Label>
+              <Label fx:id="E_title_obj2" font="$x8" text="MTH312" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label fx:id="date_obj1" font="$x8" text="01/01/01" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label fx:id="date_obj2" font="$x8" text="02/02/02" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label fx:id="time_obj1" font="$x8" text="01:01 hrs" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label fx:id="time_obj2" font="$x8" text="02:02 hrs" textAlignment="CENTER" wrapText="false" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label fx:id="status_obj1" font="$x8" text="1" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+              <Label fx:id="status_obj2" font="$x8" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+            </children>
+            <columnConstraints>
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <VBox.margin>
+              <Insets left="20.0" top="5.0" />
+            </VBox.margin>
+          </GridPane>
+          <HBox style=" fx-background-color: #2b4c2b;" VBox.vgrow="ALWAYS">
+            <children>
+              <GridPane HBox.hgrow="ALWAYS">
+                <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                    <children>
+                      <Label font="$x2_x0" text="FIRST NAME:" VBox.vgrow="SOMETIMES">
+                        <textFill>
+                          <Color blue="0.149" green="0.204" red="0.761" fx:id="x6" />
+                        </textFill>
+                        <VBox.margin>
+                          <Insets left="5.0" top="10.0" fx:id="x2" />
+                        </VBox.margin>
+                      </Label>
+                      <Label fx:id="Fiiname_Obj" text="Fname" VBox.vgrow="ALWAYS">
+                        <font>
+                          <Font name="Algerian" size="30.0" fx:id="x3" />
+                        </font>
+                        <textFill>
+                          <Color blue="0.784" green="0.969" red="0.678" fx:id="x5" />
+                        </textFill>
+                        <VBox.margin>
+                          <Insets left="20.0" top="10.0" fx:id="x4" />
+                        </VBox.margin>
+                      </Label>
+                    </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                    <children>
+                      <Label font="$x2_x0" text="SURNAME:" textFill="$x6" VBox.margin="$x2" VBox.vgrow="ALWAYS" />
+                      <Label fx:id="Siiname_Obj" font="$x3" text="Sname" textFill="$x5" VBox.vgrow="ALWAYS">
+                        <VBox.margin>
+                          <Insets left="15.0" top="10.0" />
+                        </VBox.margin>
+                      </Label>
+                    </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                    <children>
+                      <Label font="$x2_x0" text="OTHER NAME:" textFill="$x6" VBox.margin="$x2" VBox.vgrow="ALWAYS" />
+                      <Label fx:id="otherName_obj" font="$x3" text="O" textFill="$x5" VBox.vgrow="ALWAYS">
+                        <VBox.margin>
+                          <Insets left="40.0" top="10.0" />
+                        </VBox.margin>
+                      </Label>
+                    </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                    <children>
+                      <Label font="$x2_x0" text="FACULTY:" textFill="$x6" VBox.margin="$x2" VBox.vgrow="ALWAYS" />
+                      <Label fx:id="faculty_Obj" font="$x3" text="Fname" textFill="$x5" VBox.vgrow="ALWAYS">
+                        <VBox.margin>
+                          <Insets left="10.0" top="10.0" fx:id="x7" />
+                        </VBox.margin>
+                      </Label>
+                    </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <children>
+                      <Label font="$x2_x0" text="MATRIC NO:" textFill="$x6" VBox.margin="$x2" VBox.vgrow="ALWAYS" />
+                      <Label fx:id="mat_Onj" font="$x3" text="Mat" textAlignment="CENTER" textFill="$x5" VBox.vgrow="ALWAYS">
+                        <VBox.margin>
+                          <Insets top="10.0" />
+                        </VBox.margin>
+                      </Label>
+                    </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <children>
+                      <Label font="$x2_x0" text="DEPARTMENT:" textFill="$x6" VBox.margin="$x2" VBox.vgrow="ALWAYS" />
+                      <Label fx:id="dept_obj" font="$x3" text="dept" textFill="$x5" VBox.margin="$x7" VBox.vgrow="ALWAYS" />
+                    </children>
+                  </VBox>
+                </children>
+                <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                </columnConstraints>
+                <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="5.0" top="10.0" />
+                </HBox.margin>
+              </GridPane>
+            </children>
+          </HBox>
+        </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="SOMETIMES">
+        <children>
+          <Circle fx:id="Circle_Obj" fill="DODGERBLUE" radius="161.5" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="10.0" strokeType="INSIDE" VBox.vgrow="ALWAYS">
+            <VBox.margin>
+              <Insets left="20.0" right="10.0" top="20.0" />
+            </VBox.margin>
+          </Circle>
+        </children>
+      </VBox>
+    </children>
+  </HBox>
+</HBox>

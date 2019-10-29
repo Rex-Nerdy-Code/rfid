@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.net.URL?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="MOTHER_PANE" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url(C:\Users\George\IdeaProjects\stage2\NAUB);" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.controller2">
+    <children>
+        <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #adf7c8" VBox.vgrow="NEVER">
+            <children>
+                <Circle fx:id="logo1" fill="DODGERBLUE" radius="61.5" stroke="BLACK" strokeType="INSIDE" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="10.0" top="10.0" />
+                    </HBox.margin>
+                </Circle>
+                <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                <Label alignment="CENTER" text="NIGERIAN ARMY UNIVERSITY BIU" textAlignment="CENTER" textFill="#006641" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Arial Black" size="40.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="5.0" right="5.0" top="40.0" />
+                    </HBox.margin>
+                </Label>
+                <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                <Circle fx:id="army_logo" fill="DODGERBLUE" radius="61.5" stroke="BLACK" strokeType="INSIDE" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets bottom="5.0" right="10.0" top="10.0" />
+                    </HBox.margin>
+                </Circle>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </HBox>
+        <BorderPane prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <bottom>
+                <Region prefHeight="22.0" prefWidth="500.0" />
+            </bottom>
+            <center>
+                <VBox fx:id="form_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color:#006641;" BorderPane.alignment="CENTER">
+                    <HBox alignment="CENTER">
+                        <children>
+                            <Region HBox.hgrow="ALWAYS" />
+                            <Label alignment="CENTER" text="WELCOME" textAlignment="CENTER" textFill="WHITE" HBox.hgrow="ALWAYS">
+                                <font>
+                                    <Font name="Arial Black" size="20.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="30.0" />
+                                </HBox.margin>
+                            </Label>
+                            <Region HBox.hgrow="ALWAYS" />
+                        </children>
+                    </HBox>
+                    <HBox>
+                        <children>
+                            <Label text="USERNAME:" textFill="WHITE" HBox.hgrow="ALWAYS">
+                                <font>
+                                    <Font name="Arial Black" size="15.0" fx:id="x1" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets left="10.0" right="10.0" top="20.0" />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="username_fd" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                                <HBox.margin>
+                                    <Insets left="5.0" right="10.0" top="20.0" />
+                                </HBox.margin>
+                            </TextField>
+                        </children>
+                        <VBox.margin>
+                            <Insets bottom="20.0" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox>
+                        <children>
+                            <Label font="$x1" text="PASSWORD:" textFill="WHITE" HBox.hgrow="ALWAYS">
+                                <HBox.margin>
+                                    <Insets left="10.0" right="10.0" top="10.0" />
+                                </HBox.margin>
+                            </Label>
+                            <PasswordField fx:id="password_fd" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                                <HBox.margin>
+                                    <Insets left="5.0" right="10.0" top="10.0" />
+                                </HBox.margin>
+                            </PasswordField>
+                        </children>
+                    </HBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <Region HBox.hgrow="ALWAYS" />
+                            <Button defaultButton="true" mnemonicParsing="false" onAction="#login2" prefHeight="40.0" prefWidth="79.0" text="LOGIN" HBox.hgrow="ALWAYS">
+                                <font>
+                                    <Font name="Arial Black" size="13.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="30.0" />
+                                </HBox.margin>
+                            </Button>
+                            <Region HBox.hgrow="ALWAYS" />
+                        </children>
+                    </HBox>
+                    <BorderPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </BorderPane.margin>
+                </VBox>
+            </center>
+            <left>
+                <Region prefHeight="0.0" prefWidth="64.0" />
+            </left>
+            <right>
+                <Region prefHeight="0.0" prefWidth="86.0" />
+            </right>
+            <top>
+                <Region prefHeight="45.0" prefWidth="500.0" BorderPane.alignment="TOP_LEFT" />
+            </top>
+        </BorderPane>
+    </children>
+</VBox>
+
